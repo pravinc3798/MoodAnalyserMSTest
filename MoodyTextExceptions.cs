@@ -5,7 +5,10 @@
         public enum CustomExceptions
         {
             EmptyMood,
-            NullMood
+            NullMood,
+            NoSuchField,
+            NoSuchClass,
+            NoSuchMethod
         }
 
         public CustomExceptions Ex;
